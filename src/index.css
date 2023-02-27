@@ -1,0 +1,74 @@
+@tailwind components;
+@tailwind  base;
+@tailwind utilities;
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#login .sideimg{
+  clip-path: polygon(0 0, 100% 0, 44% 100%, 0 100%);
+}
+
+#login .logo{
+  width: 200px;
+  height: 200px;
+}
+
+.header{
+  font-size: 32.56px;
+  font-weight: 600;
+  letter-spacing: 4.5px;
+  color: rgb(75, 75, 75);
+}
+
+.content{
+  font-size: 12.28px;
+  font-weight: 500;
+}
+
+form input{
+  border: 2px solid rgb(156, 156, 156);
+  border-radius: 5px;
+}
+
+#navbar img{
+  width: 120px;
+}
+
+#mitra img{
+  width: 80px;
+  height: 80px;
+}
+
+#mitra h1:after{
+  position: absolute;
+  content: ' ';
+  height: 4px;
+  bottom: -3px;
+  margin: 0 auto;
+	left: 3px;
+	width: 13%;
+	background: rgb(61, 61, 61);
+}
+
+#footer img{
+  width: 250px;
+}
+
+#tim img{
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
